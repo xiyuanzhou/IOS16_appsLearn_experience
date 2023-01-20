@@ -11,6 +11,10 @@
 		A01E59AE2973DCA000ECD3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E59AD2973DCA000ECD3D8 /* ContentView.swift */; };
 		A01E59B02973DCA100ECD3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01E59AF2973DCA100ECD3D8 /* Assets.xcassets */; };
 		A01E59B42973DCA100ECD3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01E59B32973DCA100ECD3D8 /* Preview Assets.xcassets */; };
+		A01E59BB297A933700ECD3D8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01E59BA297A933700ECD3D8 /* Launch Screen.storyboard */; };
+		A01E59C7297A9D2000ECD3D8 /* inspire_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A01E59C4297A9D2000ECD3D8 /* inspire_2.jpeg */; };
+		A01E59C8297A9D2000ECD3D8 /* inspire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A01E59C5297A9D2000ECD3D8 /* inspire.jpeg */; };
+		A01E59C9297A9D2000ECD3D8 /* inspire_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A01E59C6297A9D2000ECD3D8 /* inspire_1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A01E59AF2973DCA100ECD3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A01E59B12973DCA100ECD3D8 /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		A01E59B32973DCA100ECD3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A01E59BA297A933700ECD3D8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A01E59C4297A9D2000ECD3D8 /* inspire_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inspire_2.jpeg; path = ../../../../../../Downloads/inspire_2.jpeg; sourceTree = "<group>"; };
+		A01E59C5297A9D2000ECD3D8 /* inspire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inspire.jpeg; path = ../../../../../../Downloads/inspire.jpeg; sourceTree = "<group>"; };
+		A01E59C6297A9D2000ECD3D8 /* inspire_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inspire_1.jpeg; path = ../../../../../../Downloads/inspire_1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +60,14 @@
 		A01E59AA2973DCA000ECD3D8 /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				A01E59C6297A9D2000ECD3D8 /* inspire_1.jpeg */,
+				A01E59C4297A9D2000ECD3D8 /* inspire_2.jpeg */,
+				A01E59C5297A9D2000ECD3D8 /* inspire.jpeg */,
 				A01E59AB2973DCA000ECD3D8 /* GreetingsApp.swift */,
 				A01E59AD2973DCA000ECD3D8 /* ContentView.swift */,
 				A01E59AF2973DCA100ECD3D8 /* Assets.xcassets */,
 				A01E59B12973DCA100ECD3D8 /* Greetings.entitlements */,
+				A01E59BA297A933700ECD3D8 /* Launch Screen.storyboard */,
 				A01E59B22973DCA100ECD3D8 /* Preview Content */,
 			);
 			path = Greetings;
@@ -127,7 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01E59C8297A9D2000ECD3D8 /* inspire.jpeg in Resources */,
+				A01E59BB297A933700ECD3D8 /* Launch Screen.storyboard in Resources */,
+				A01E59C7297A9D2000ECD3D8 /* inspire_2.jpeg in Resources */,
 				A01E59B42973DCA100ECD3D8 /* Preview Assets.xcassets in Resources */,
+				A01E59C9297A9D2000ECD3D8 /* inspire_1.jpeg in Resources */,
 				A01E59B02973DCA100ECD3D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,6 +330,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
